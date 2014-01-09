@@ -53,12 +53,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-  loadMax = 50;
-  width = 15.0f;
-  height = 15.0f;
+  loadMax = 100;
+  width = 8.0f;
+  height = 8.0f;
   
   int inputs  = 255;
-  int hiddens = 133;
+  int hiddens = 127;
   
   // Create the network
   network = [emrNetwork new];
